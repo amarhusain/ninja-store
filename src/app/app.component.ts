@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ninja-store';
+  title3 = 'ninja-store3';
 }
