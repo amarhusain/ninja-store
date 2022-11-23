@@ -8,6 +8,7 @@ import { FooterComponent } from './core/footer/footer.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { PageNotFoundComponent } from './core/page-not-found/page-not-found.component';
 import { LoginPageComponent } from './core/login-page/login-page.component';
+import { ToolbarComponent } from './core/toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LoginPageComponent } from './core/login-page/login-page.component';
     FooterComponent,
     HomePageComponent,
     PageNotFoundComponent,
-    LoginPageComponent, 
+    LoginPageComponent,
+    ToolbarComponent, 
    ],
   imports: [
     BrowserModule,
