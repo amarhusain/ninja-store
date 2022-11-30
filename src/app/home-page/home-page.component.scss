@@ -1,4 +1,21 @@
+.carousel-container {
+    height: 300px;
 
-.carousel-container{
-    height: 400px;
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 100px;
+        top: 50px;
+        background-color: black;
+        width: 50px;
+        border-radius: 8px;
+    }
+
+    .carousel-control-prev {
+        left: 50px;
+    }
+
+    .carousel-control-next {
+        right: 50px;
+    }
+
 }
