@@ -6,6 +6,13 @@
 @import './styles/login';
 @import './styles/ninja-colors';
 @import './styles/toolbar';
+@import './styles/layout';
+@import './styles/list';
+@import './styles/cstm-care';
+@import './styles/notification';
+@import './styles/dashboard';
+
+
 
 
 :root {
@@ -15,4 +22,8 @@
     --m-green-light: #7ECA9C;
     --m-gray: #ECF0F3;
     --m-gray-dark: #BDBFC1;
+
+    --m-blue: #0d6efd;
 }
+
+

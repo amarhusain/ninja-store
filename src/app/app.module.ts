@@ -9,6 +9,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { PageNotFoundComponent } from './core/page-not-found/page-not-found.component';
 import { LoginPageComponent } from './core/login-page/login-page.component';
 import { ToolbarComponent } from './core/toolbar/toolbar.component';
+import { NotificationComponent } from './core/notification/notification.component';
 
 @NgModule({
   declarations: [
@@ -18,8 +19,9 @@ import { ToolbarComponent } from './core/toolbar/toolbar.component';
     HomePageComponent,
     PageNotFoundComponent,
     LoginPageComponent,
-    ToolbarComponent, 
-   ],
+    ToolbarComponent,
+    NotificationComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule
