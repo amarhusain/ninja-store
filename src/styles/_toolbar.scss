@@ -1,3 +1,21 @@
 .bg-dark{
+    padding: 0;
     background-color: $dark-bg;
+}
+
+.navbar{
+    
+    .navbar-brand{
+        color: white;
+    }
+}
+
+#navbarNav{
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                color: white;
+            }
+        }
+    }
 }

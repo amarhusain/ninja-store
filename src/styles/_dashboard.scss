@@ -1,0 +1,16 @@
+
+.dashboard {
+    position: relative;
+    height: 500px;
+    .caption{
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.career-wallpaper{
+    background-image: url(../assets/images/1.jpg);   
+}

@@ -11,3 +11,13 @@
 .f-copyright{
     background-color: var(--m-gray-dark);
 }
+
+.country-list{
+    text-align: center;
+    padding: 15px 0;
+
+    .name{
+        text-decoration: none;
+        margin-right: 15px;
+    }
+}
